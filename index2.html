@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+
+    <!--Document Information-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>After School Coding Club</title>
+        <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/nav.css" />
+    </head>
+    <body>
+        <nav class="topnav" id="myTopnav">
+            <div>
+                <a href='#home'>OUR PROGRAM</a>
+                <a href='#about'>ABOUT US</a>
+                <a href='#need'>WHAT YOU NEED</a>
+                <a href='#join'>JOIN US</a>
+                <a href='#faq'>F.A.Q.</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" id="myMenuFunction">&#9776;</a>
+            </div>
+        </nav>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1>After School Coding Club V1</h1>
+            </div>
+        </div>
+
+        <section id="home">
+            <div class='main-section'>
+                <div class='title'>Our Program</div>
+                <div class='info'>
+                    <p>Hello and welcome to the After School Coding Club! 
+                        This club is intended to provide and fun and interactive place where kids can learn about the wonderful world of computer programming. 
+                        Our program is intended for kids aged 8-12 who have little to no experience with coding. 
+                        We walk children through the basics of Scratch (a great introductory programming tool using interactive building blocks to model code) and help them build their confidence from week to week by incrementally building one the skills they acquired in the previous lesson. 
+                        Kids love the graphic nature of scratch and love to explore all the amazing interactive components that can be built with just a few lessons.
+                    </p>
+                    <img class="img_right" src="./assets/images/home.jpg" alt="home">
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <div class='main-section bgcolour'>
+                <div class='title title-right'>About Us</div>
+                <div class="info">
+                    <img class="img_left" src="./assets/images/about.jpg" alt="about">
+                    <p>Our school was founded by Frances Karulas, a seasoned Software Developer with over 15 years in the technology industry who has worked for large technology firms, Canada’s biggest banks, as well as one of Toronto’s hottest start-ups. 
+                        Frances has a passion for programming and enjoys passing on this incredibly useful skill to the next generation of budding coders. 
+                        She is committed to seeing new programmers build their repertoire of skills and gain confidence in the process. 
+                        Some classes are run by Frances herself, while others are mentored by one of our other skilled developers on staff.
+                    </p>
+                    <img class="img_small" src="./assets/images/about.jpg" alt="about">
+                </div>
+            </div>
+        </section>
+
+        <section id='need'>
+            <div class='main-section'>
+                <div class='title'>WHAT YOU NEED</div>
+                <div class="info">
+                    <ul>
+                        <li>Scratch</li>
+                        <li>Zoom</li>
+                        <li>A parent
+                            <ul class='ul_sub'>
+                                <li>to help new technology users</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <img class="ul_image" src="./assets/images/need.jpg" alt="need">
+                </div>
+            </div>
+        </section>
+
+        <section id='join'>
+            <div class='main-section bgcolour'>
+            <div class='title'>Join Us</div>
+            <div class="the-prices">
+                    <div class="price">
+                        <span class='sub-title'>FREE</span>                   
+                    </div>
+                    <div class="price">
+                        <span class='sub-title'>Program</span>                
+                    </div>
+                    <div class="price">
+                        <span class='sub-title'>Private</span>                   
+                    </div>
+            </div>
+        </div>
+        </section>
+
+        <section id='faq'>
+            <div class='main-section'>
+                <div class='title ul_title-right'>F.A.Q.</div>
+                <div class ='info'>
+                    <img class="ul_image img_left" src="./assets/images/fqa.jpg" alt="fqa">
+                    <ul>
+                        <li id='q1' onclick='whatIsTheAnswer(1)'>Who is this program for?
+                            <ul class='ul_sub answer' id='a1'>
+                                <li class='faq_answer'>
+                                    Answer your info here for the question above
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q2' onclick='whatIsTheAnswer(2)'>What do you need to get started?
+                            <ul class='ul_sub answer' id='a2'>
+                                <li class='faq_answer'>
+                                    Answer your info here for the question above
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q3' onclick='whatIsTheAnswer(3)'>How many classes do I have to commit to?
+                            <ul class='ul_sub answer' id='a3'>
+                                <li class='faq_answer'>
+                                    Answer your info here for the question above
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q4' onclick='whatIsTheAnswer(4)'>When are classes?
+                            <ul class='ul_sub answer' id='a4'>
+                                <li class='faq_answer'>
+                                    Answer your info here for the question above
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q5' onclick='whatIsTheAnswer(5)'>How long is the program?
+                            <ul class='ul_sub answer' id='a5'>
+                                <li class='faq_answer'>
+                                    Answer your info here for the question above
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q6' onclick='whatIsTheAnswer(6)'>What is the cost?
+                            <ul class='ul_sub answer' id='a6'>
+                                <li class='faq_answer'>
+                                    Answer your info here for the question above
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q7' onclick='whatIsTheAnswer(7)'>What if my child is older than 12, but still wants to learn scratch?
+                            <ul class='ul_sub answer' id='a7'>
+                                <li class='faq_answer'>
+                                    Answer your info here for the question above
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <img class="img_small" src="./assets/images/fqa.jpg" alt="fqa">
+                </div>
+            </div>
+        </section>
+
+        <section id='footer'>
+            <div class='main-section'>
+                <p>After School Coding Club &copy;</p>
+            </div>
+        </section>
+
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/nav.js"></script>
+    </body>
+</html>

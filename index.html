@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html>
+
+    <!--Document Information-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>After School Coding Club</title>
+        <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/nav.css" />
+    </head>
+    <body>
+        <nav class="topnav" id="myTopnav">
+            <div>
+                <a href='#home'>OUR PROGRAM</a>
+                <a href='#about'>ABOUT</a>
+                <a href='#need'>WHAT YOU NEED</a>
+                <a href='#join'>JOIN US</a>
+                <a href='#faq'>F.A.Q.</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" id="myMenuFunction">&#9776;</a>
+            </div>
+        </nav>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1>After School Coding Club V2</h1>
+            </div>
+            <div class='social'>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://twitter.com/JoinCodingClub" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </div>
+        </div>
+
+        <section id="home">
+            <div class='main-section'>
+                <div class='title'>Our Program</div>
+                <div class='info'>
+                    <p class='p_left'>Hello and welcome to the After School Coding Club! 
+                        This club is intended to provide a fun and interactive place where kids can learn about the wonderful world of computer programming. 
+                        Our program is intended for kids aged 8-12 who have little to no experience with coding. 
+                        We walk children through the basics of Scratch (a great introductory programming tool using interactive building blocks to model code) and help them build their confidence from week to week by incrementally building on the skills they acquired in the previous lesson. 
+                        Kids love the graphic nature of scratch and love to explore all the amazing interactive components that can be built with just a few lessons.
+                    </p>
+                    <img class="img_right" src="./assets/images/home3.jpg" alt="home">
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <div class='main-section bgcolour'>
+                <div class='title title-right'>About</div>
+                <div class="info">
+                    <img class="img_left" src="./assets/images/about2.jpg" alt="about">
+                    <p class='p_right'>Our school was founded by <a href="https://www.linkedin.com/in/frances-vaiopoulos-karulas-aa39563" target="_blank">Frances Karulas</a>, a seasoned Software Developer with over 15 years in the technology industry who has worked for large technology firms, Canada’s biggest banks, as well as one of Toronto’s hottest start-ups. 
+                        Frances has a passion for programming and enjoys passing on this incredibly useful skill to the next generation of budding coders. 
+                        She is committed to seeing new programmers build their repertoire of skills and gain confidence in the process. 
+                        Some classes are run by Frances herself, while others are mentored by one of our other skilled developers on staff.
+                    </p>
+                    <img class="img_small" src="./assets/images/about2.jpg" alt="about">
+                </div>
+            </div>
+        </section>
+
+        <section id='need'>
+            <div class='main-section'>
+                <div class='title'>What You Need</div>
+                <div class="info">
+                    <ul>
+                        <li class='need-title'>Access to Scratch
+                            <ul class='ul_sub'>
+                                <li>The Scratch program we use for all coding exercises can be found here: <u><a href="https://scratch.mit.edu/" target="_blank">scratch.mit.edu</a></u></li>
+                            </ul>
+                        </li>
+                        <li class='need-title'>Access to ZOOM
+                            <ul class='ul_sub'>
+                                <li>All of our classes will be held online over the <u><a href="https://zoom.us/" target="_blank">Zoom</a></u> application. If your child is connecting on a laptop you do not need to install anything, you simply need to click the class link which will be provided for you. 
+                                If your child will participate in the class using an iPad, the Zoom application will have to be installed prior to the class.</li>
+                            </ul>
+                        </li>
+                        <li class='need-title'>A Parent or Guardian
+                            <ul class='ul_sub'>
+                                <li>The online nature of the classes means that there isn’t anyone there to physically help your child if they can’t find a specific button on the screen or can’t understand a set of instructions.
+                                    For younger children (and for all children during the first class or two), we highly recommend that parent or guardian is nearby to provide assistance when needed.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <img class="ul_image" src="./assets/images/need2.jpg" alt="need">
+                </div>
+            </div>
+        </section>
+
+        <section id='join'>
+            <div class='main-section bgcolour'>
+            <div class='title'>Join Us</div>
+            <div class="the-prices">
+                    <div class="price">
+                        <span class='sub-title'>FREE</span>                   
+                    </div>
+                    <div class="price">
+                        <span class='sub-title'>Program</span>                
+                    </div>
+                    <div class="price">
+                        <span class='sub-title'>Private</span>                   
+                    </div>
+            </div>
+        </div>
+        </section>
+
+        <section id='faq'>
+            <div class='main-section'>
+                <div class='title title-right'>F.A.Q.</div>
+                <div class ='info'>
+                    <img class="ul_image img_left" src="./assets/images/fqa2.jpg" alt="fqa">
+                    <ul>
+                        <li id='q1'><a href="#" onclick='whatIsTheAnswer(1)'>Who is this program for?</a>
+                            <ul class='ul_sub answer' id='a1'>
+                                <li class='faq_answer'>
+                                    Our program is for beginners who have never coded in Scratch before (or who have done very little in the past). 
+                                    It is best suited to learners who are between the ages of 8-12. 
+                                    We find that children younger than 8 have trouble navigating the computer keyboard and can struggle with the online learning format. 
+                                    Conversely, children older than 12 are usually ready for programming language learning formats that are a little more complex than the “block coding” structure that Scratch provides. 
+                                    Additionally, our content and themes are geared toward children in the 8-12 age group. 
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q2'><a href="#" onclick='whatIsTheAnswer(2)'>What do you need to get started?</a>
+                            <ul class='ul_sub answer' id='a2'>
+                                <li class='faq_answer'>
+                                    Please see our “What You Need” section for specifics about the tools you’ll need. 
+                                    But at the core all you really need is a child who is interested in learning to code!
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q3'><a href="#" onclick='whatIsTheAnswer(3)'>How many classes do I have to commit to?</a>
+                            <ul class='ul_sub answer' id='a3'>
+                                <li class='faq_answer'>
+                                    Our program runs for 4 consecutive weeks, every Saturday or Sunday at 11am. 
+                                    Our next session starts July 6, 2020!
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q4'><a href="#" onclick='whatIsTheAnswer(4)'>When are classes?</a>
+                            <ul class='ul_sub answer' id='a4'>
+                                <li class='faq_answer'>
+                                    Classes are on Tuesdays at 5:00pm. 
+                                    Our next session runs for 4 weeks and starts July 7th, 2020. 
+                                    The following session runs for 4 weeks and starts on August 4th, 2020.
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q5'><a href="#" onclick='whatIsTheAnswer(5)'>How long is the program?</a>
+                            <ul class='ul_sub answer' id='a5'>
+                                <li class='faq_answer'>
+                                    Our program is 4 weeks.
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q6'><a href="#" onclick='whatIsTheAnswer(6)'>How many students are in each class?</a>
+                            <ul class='ul_sub answer' id='a6'>
+                                <li class='faq_answer'>
+                                    We limit our class sizes to 5 to ensure all students get the attention they need in order to grasp the concepts being presented. 
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q7'><a href="#" onclick='whatIsTheAnswer(7)'>What is the cost?</a>
+                            <ul class='ul_sub answer' id='a7'>
+                                <li class='faq_answer'>
+                                    Our 4 week programs are $129 + tax. 
+                                    Contact us if you’re interested in private or semi-private lessons.
+                                </li>
+                            </ul>
+                        </li>
+                        <li id='q8'><a href="#" onclick='whatIsTheAnswer(8)'>What if my child needs extra help?</a>
+                            <ul class='ul_sub answer' id='a8'>
+                                <li class='faq_answer'>
+                                    For students who are struggling with the new concepts, we start our weekly calls at 10:30am to help provide guidance with the lesson from the week before. 
+                                    We’re always available via email for questions during the week, but also provide this extra time for in-person help so that each new lesson can be started with confidence about the previous material that was learned. 
+                                    If you feel your child would benefit from a more 1:1 teaching environment please contact us to learn about your private lesson packages. 
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <img class="img_small" src="./assets/images/fqa2.jpg" alt="fqa">
+                </div>
+            </div>
+        </section>
+
+        <section id='footer'>
+            <div class='main-section'>
+                <p>After School Coding Club &copy;</p>
+            </div>
+        </section>
+
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/nav.js"></script>
+    </body>
+</html>
