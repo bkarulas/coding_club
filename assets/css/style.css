@@ -114,16 +114,6 @@ ul{
     border-radius: 15px;
 }
 
-#footer{
-    background-color: #b8c8c2;
-    color: #ffffff;
-}
-
-#footer p{
-    margin: auto;
-    text-align: center;
-}
-
 a:link {
     color: #000000;
     text-decoration: none;
