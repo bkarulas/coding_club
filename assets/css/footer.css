@@ -21,11 +21,18 @@
 #footer li{
     display: inline-block;
     vertical-align: top;
-    text-align: left;
 }
 
-.foot-logo, .foot-map, .foot-ref, .foot-term, .foot-social{
+.foot-logo, .foot-term, .foot-social{
     width: 19.5%;
+}
+
+.foot-map{
+    width: 23.5%;
+}
+
+.foot-ref{
+    width: 15.5%;
 }
 
 #footer .title{
@@ -61,7 +68,13 @@
 }
 
 @media screen and (max-width: 1410px){
-
+    #footer ul{font-size: .9rem;}
+    #footer .title{font-size: 1rem;}
+    #footer .fab{font-size: 2.3rem;}
+    .foot-map{width: 25.5%;}
+    .foot-ref, .foot-term, .foot-social{
+        width: 17.5%;
+    }
 }
 
 @media screen and (max-width: 1208px){
@@ -79,14 +92,16 @@
     #footer ul{font-size: .7rem;}
     #footer .title{font-size: .9rem;}
     #footer .fab{font-size: 2rem;}
-    .foot-map{width: 25.5%;}
-    .foot-ref{width: 14.5%;}
-    .foot-term{width: 19.5%;}
-    .foot-social{width: 18.5%;}
-
+    .foot-map{width: 30%;}
+    .foot-ref{width: 20%;}
+    .foot-term{width: 20%;}
+    .foot-social{
+        width: 100%;
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 775px){
     #footer ul{font-size: .8rem;}
     #footer li{margin-bottom: 1.5rem;}
     #footer .title{font-size: 1rem;}

@@ -94,11 +94,11 @@ ul{
 }
 
 .price{
-    border: 1px solid #7d817f;
     border-radius: 5px;
     margin: auto;
     margin-bottom: 1rem;   
-    width: 33%
+    width: 49%;
+    background: #ffffff;
 }
 
 
