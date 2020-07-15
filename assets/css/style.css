@@ -12,6 +12,22 @@ body{
 .jumbotron{
     margin-top: 2rem;
     background-color: #eaf2ef;
+    background-image: url(../images/header.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron img{
+    width: 35%;
+    height: auto;
+
+}
+
+.btn-color{
+    color: #ffffff;
+    background-color: #95a29d;
 }
 
 .social{
@@ -63,6 +79,7 @@ p{
 
 .need-title{
     list-style-type: none;
+    margin-left: -30px;
 }
 
 .img_small{
@@ -88,18 +105,6 @@ ul{
     margin-bottom: .5rem;
 }
 
-.info, .the-prices{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.price{
-    border-radius: 5px;
-    margin: auto;
-    margin-bottom: 1rem;   
-    width: 49%;
-    background: #ffffff;
-}
 
 
 .answer{
@@ -163,12 +168,16 @@ a:active {
         margin-bottom: 1.5rem;
     }    
     .info{font-size: 1.2rem;}
+    .jumbotron img{margin-left: 50px;}
+    
+    }
 }
 
 @media screen and (max-width: 1208px){
     .main-section{width: 85%;}    
     .info{font-size: 1.1rem;}
     .fab{font-size: 2.5rem;}
+    .jumbotron img{width: 90%;}
 }
 
 @media screen and (max-width: 992px){
@@ -177,9 +186,13 @@ a:active {
         margin-top: 1.3rem;
         padding: 2rem;
         margin-bottom: 1.3rem;
-    }    
+    }
+    .jumbotron{background-image: none;}  
     .info{font-size: 1rem;}
     .fab{font-size: 2.3rem;}
+    .jumbotron img{width: 80%;}
+    #need ul{margin-left: -10px;}
+    #need li{margin-left: -15px;}
 }
 
 @media screen and (max-width: 768px){
@@ -200,6 +213,8 @@ a:active {
     .price{width: 80%}
     .fab{font-size: 2.2rem;}
     .social{margin-left: 70%;}
+    #need ul{margin-left: -10px;}
+    #need li{margin-left: -15px;}
 }
 
 @media screen and (max-width: 576px){
@@ -212,4 +227,6 @@ a:active {
     .price{width: 95%}
     .fab{font-size: 2rem;}
     .social{margin-left: 65%;}
+    #need ul{margin-left: -10px;}
+    #need li{margin-left: -10px;}
 }

@@ -1,0 +1,104 @@
+.info, .the-prices{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 1rem;   
+    width: 49%;
+    background: #ffffff;
+}
+
+#reg_class{
+    padding-top:1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+#pri_class{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#join p{
+    width: 100%;
+    text-align: center;
+}
+
+#join button{
+    text-align: center;
+}
+
+#join .reg{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#join .plus{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#join .plusplus{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#join a:link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+#join a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+#join a:hover {
+    color: #dce2e0;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+#join a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+/*MEDIA STYLE*/
+
+@media screen and (max-width: 1550px){
+}
+
+@media screen and (max-width: 1410px){
+    #join .reg{font-size: 1.05rem;}
+}
+
+@media screen and (max-width: 1208px){
+    #join .reg{font-size: .9rem;}
+    #join .plus{font-size: 1.1rem;}
+    #join .plusplus{font-size: 1.3rem;}
+
+}
+
+@media screen and (max-width: 992px){
+    #join .reg{font-size: .75rem;}
+    #join .plus{font-size: .95rem;}
+    #join .plusplus{font-size: 1.15rem;}
+    #pri_class{
+        padding-top: 2.3rem;
+        padding-bottom: 2.3rem;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    #join .reg{font-size: .8rem;}
+    #join .plus{font-size: 1rem;}
+    #join .plusplus{font-size: 1.2rem;}
+    .price{width: 80%}
+}
+
+@media screen and (max-width: 576px){
+    .price{width: 95%}
+}

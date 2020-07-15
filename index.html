@@ -7,10 +7,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>After School Coding Club</title>
+        <meta name="description" content="Coding club for kids">
+        <meta name="keywords" content="after school coding club, code, coding, club, coding club, after school coding camp, camp, kids, children, coding camp, kids coding club, kids coding camp, after school, scratch">
+        <link rel="icon" href="favicon.ico" type="image/ico" />
+        <link rel="SHORTCUT ICON" href="favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/join.css" />
         <link rel="stylesheet" href="assets/css/footer.css" />
         <link rel="stylesheet" href="assets/css/nav.css" />
     </head>
@@ -27,12 +32,12 @@
         </nav>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1>After School Coding Club</h1>
+                <img src="/assets/images/logo.png" alt="AfterSchoolCodingClub">
             </div>
             <div class='social'>
-                <a href="https://www.facebook.com/JoinCodingClub" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/joincodingclub" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                <a href="https://twitter.com/JoinCodingClub" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.facebook.com/JoinCodingClub" target="_blank" rel="noopener"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/joincodingclub" target="_blank" rel="noopener"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://twitter.com/JoinCodingClub" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
             </div>
         </div>
 
@@ -56,7 +61,7 @@
                 <div class='title title-right'>About</div>
                 <div class="info">
                     <img class="img_left" src="./assets/images/about.jpg" alt="about">
-                    <p class='p_right'>Our school was founded by <a href="https://www.linkedin.com/in/frances-vaiopoulos-karulas-aa39563" target="_blank">Frances Karulas</a>, a seasoned Software Developer with over 15 years in the technology industry who has worked for large technology firms, Canada’s biggest banks, as well as one of Toronto’s hottest start-ups. 
+                    <p class='p_right'>Our school was founded by <a href="https://www.linkedin.com/in/frances-vaiopoulos-karulas-aa39563" target="_blank" rel="noopener">Frances Karulas</a>, a seasoned Software Developer with over 15 years in the technology industry who has worked for large technology firms, Canada’s biggest banks, as well as one of Toronto’s hottest start-ups. 
                         Frances has a passion for programming and enjoys passing on this incredibly useful skill to the next generation of budding coders. 
                         She is committed to seeing new programmers build their repertoire of skills and gain confidence in the process. 
                         Some classes are run by Frances herself, while others are mentored by one of our other skilled developers on staff.
@@ -73,12 +78,12 @@
                     <ul>
                         <li class='need-title'>Access to Scratch
                             <ul class='ul_sub'>
-                                <li>The Scratch program we use for all coding exercises can be found here: <u><a href="https://scratch.mit.edu/" target="_blank">scratch.mit.edu</a></u></li>
+                                <li>The Scratch program we use for all coding exercises can be found here: <u><a href="https://scratch.mit.edu/" target="_blank" rel="noopener">scratch.mit.edu</a></u></li>
                             </ul>
                         </li>
                         <li class='need-title'>Access to ZOOM
                             <ul class='ul_sub'>
-                                <li>All of our classes will be held online over the <u><a href="https://zoom.us/" target="_blank">Zoom</a></u> application. If your child is connecting on a laptop you do not need to install anything, you simply need to click the class link which will be provided for you. 
+                                <li>All of our classes will be held online over the <u><a href="https://zoom.us/" target="_blank" rel="noopener">Zoom</a></u> application. If your child is connecting on a laptop you do not need to install anything, you simply need to click the class link which will be provided for you. 
                                 If your child will participate in the class using an iPad, the Zoom application will have to be installed prior to the class.</li>
                             </ul>
                         </li>
@@ -98,11 +103,18 @@
             <div class='main-section bgcolour'>
             <div class='title'>Join Us</div>
             <div class="the-prices">
-                    <div class="price">
-                        <span class='sub-title'>Program</span>                
+                    <div class="price" id="reg_class">
+                        <p class='reg'>JOIN OUR INTRODUCTORY ONLINE CODING CLASS</p>
+                        <p><span class='plusplus'>AUGUST 2020 SESSION</span><br>
+                        <span class='plus'>TUESDAY AUG 4, 11, 18, 25<br>
+                        5-6PM EST</span></p> 
+                        <p><button type="button" class="btn btn-color"><a href="https://www.eventbrite.com/e/after-school-coding-club-august-session-tickets-113309762550" target="_blank" rel="noopener">ENROLL TODAY</a></button></p>
                     </div>
-                    <div class="price">
-                        <span class='sub-title'>Private</span>                   
+                    <div class="price" id="pri_class">
+                        <p class="reg">INTERESTED IN PRIVATE CODING LESSONS?<br>
+                        WE OFFER 1:1 ONLINE SESSIONS</p>
+                        <p class="plus">FOR MORE DETAILS</p> 
+                        <p><button type="button" class="btn btn-color"><a href="mailto:info@afterschoolcodingclub.com?subject=Hi! I need more details">CONTACT US</a></button></p>                 
                     </div>
             </div>
         </div>
@@ -128,7 +140,7 @@
                         <li id='q2'><a href="#" onclick='whatIsTheAnswer(2)'>What do you need to get started?</a>
                             <ul class='ul_sub answer' id='a2'>
                                 <li class='faq_answer'>
-                                    Please see our “What You Need” section for specifics about the tools you’ll need. 
+                                    Please see our “<a href='#need'>What You Need</a>” section for specifics about the tools you’ll need. 
                                     But at the core all you really need is a child who is interested in learning to code!
                                 </li>
                             </ul>
@@ -167,7 +179,7 @@
                             <ul class='ul_sub answer' id='a7'>
                                 <li class='faq_answer'>
                                     Our 4 week programs are $135 CAD. 
-                                    Contact us if you’re interested in private or semi-private lessons.
+                                    <a href="mailto:info@afterschoolcodingclub.com?subject=Hi! I need more details">Contact us</a> if you’re interested in private or semi-private lessons.
                                 </li>
                             </ul>
                         </li>
@@ -176,7 +188,7 @@
                                 <li class='faq_answer'>
                                     For students who are struggling with the new concepts, we start our weekly calls at 4:30pm to help provide guidance with the lesson from the week before. 
                                     We’re always available via email for questions during the week, but also provide this extra time for in-person help so that each new lesson can be started with confidence about the previous material that was learned. 
-                                    If you feel your child would benefit from a more 1:1 teaching environment please contact us to learn about your private lesson packages. 
+                                    If you feel your child would benefit from a more 1:1 teaching environment please <a href="mailto:info@afterschoolcodingclub.com?subject=Hi! I need more details">contact us</a> to learn about your private lesson packages. 
                                 </li>
                             </ul>
                         </li>
@@ -190,7 +202,7 @@
             <div class="main-section">
                 <ul>
                     <li class="foot-logo">
-                        LOGO HERE
+                        <img src="/assets/images/logo.png" alt="AfterSchoolCodingClub">
                     </li>
                     <li class='foot-map'>
                         <span class="title">After School Coding Club</span><br>
@@ -198,12 +210,14 @@
                             <a href='#about'>About</a><br>
                             <a href='#need'>What You Need</a><br>
                             <a href='#join'>Join Us</a><br>
-                            <a href='#faq'>F.A.Q.</a>
+                            <a href='#faq'>F.A.Q.</a><br>
+                            <a href="mailto:info@afterschoolcodingclub.com?subject=Hi! I need more details">Contact Us</a>
+
                     </li>
                     <li class="foot-ref">
                         <span class="title">References</span><br>
-                            <a href="https://scratch.mit.edu/" target="_blank">Scratch</a><br>
-                            <a href="https://zoom.us/" target="_blank">Zoom</a>
+                            <a href="https://scratch.mit.edu/" target="_blank" rel="noopener">Scratch</a><br>
+                            <a href="https://zoom.us/" target="_blank" rel="noopener">Zoom</a>
                     </li>
                     <li class="foot-term">
                         <a class="title" href='#'>Terms & Conditions</a>
@@ -211,12 +225,13 @@
                     <li class="foot-social">
                         <span class="title title-social">Connect With Us</span>
                         <div class="social">
-                            <a href="https://www.facebook.com/JoinCodingClub" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                            <a href="https://www.instagram.com/joincodingclub" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                            <a href="https://twitter.com/JoinCodingClub" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.facebook.com/JoinCodingClub" target="_blank" rel="noopener"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/joincodingclub" target="_blank" rel="noopener"><i class="fab fa-instagram-square"></i></a>
+                            <a href="https://twitter.com/JoinCodingClub" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
                         </div>
                     </li>
                 </ul>
+                <div class='copyright'>After School Coding Club &copy;</div>
             </div>            
         </section>
 
